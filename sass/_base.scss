@@ -7,8 +7,10 @@
     --color-gray-1: #A0A0A0;
     --color-gray-2: #343A40;
     --color-gray-3: #343A40;
+    
 
     --color-gray-light: #F8F9FA;
+    --color-gray-light-1: #E9ECEF;
 }
 
 $bp-largest1: 90.625em; //1450px
@@ -33,9 +35,9 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;  // 1rem = 10px, 10px/16px = 62.5%
 
-    // @media only screen and (max-width: $bp-largest) {
-    //     font-size: 50%;
-    //    }  
+    @media only screen and (max-width: $bp-largest) {
+        font-size: 50%;
+       }  
 }
 
 body {
